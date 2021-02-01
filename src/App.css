@@ -1,0 +1,15 @@
+.Table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.Td, .Th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.Tr:nth-child(even) {
+  background-color: #dddddd;
+}
